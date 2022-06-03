@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Dragon\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js dev
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Dragon\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\Dragon\.cargo\bin;C:\Users\Dragon\AppData\Local\Microsoft\WindowsApps;C:\Users\Dragon\AppData\Roaming\npm;
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, mkdir 'C:\PROGRA~1\MongoDB\Server\5.0\bin\yarn--1653812593211-0.3904237257357135'
+
+npm manifest: 
+  {
+    "name": "ecommerce",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node Backend/server.js",
+      "dev": "nodemon Backend/server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.20.0",
+      "cookie-parser": "^1.4.6",
+      "dotenv": "^16.0.1",
+      "express": "^4.18.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^6.3.3",
+      "nodemailer": "^6.7.5",
+      "validator": "^13.7.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
